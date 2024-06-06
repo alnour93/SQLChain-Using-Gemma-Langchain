@@ -4,7 +4,7 @@ This document explores the capabilities of **LangChain**, a framework designed t
 
 ## Overview
 
-**LangChain** provides a seamless way to interact with SQL databases using the power of large language models. By leveraging SQL, users can securely query and manipulate data stored in CSV files.
+**LangChain** provides a seamless way to interact with SQL databases using the power of large language models. By leveraging langchain, users can  query and manipulate data using natural language.
 
 ## Methodology
 
@@ -12,9 +12,8 @@ This document explores the capabilities of **LangChain**, a framework designed t
 2. **Import Libraries**: Import necessary libraries for data handling and LangChain functionality.
 3. **Setting the Environment**: Authenticate with the Hugging Face token for accessing models.
 4. **Loading CSV Data into SQL Database**: Load CSV data into an SQLite database for SQL queries.
-5. **Interacting with SQL Database**: Execute SQL queries to interact with the data stored in the database.
-6. **Building SQL Chain**: Set up the SQL chain using LangChain, connecting the LLM with the SQL database.
-7. **Trying it Out**: Test the SQL chain by querying the database using natural language.
+5. **Building SQL Chain**: Set up the SQL chain using LangChain, connecting the LLM with the SQL database.
+6. **Trying it Out**: Test the SQL chain by querying the database using natural language.
 
 ## Conclusion
 
